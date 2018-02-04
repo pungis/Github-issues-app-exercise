@@ -1,4 +1,3 @@
-// @import "bem.scss";
 @import 'reset.scss';
 @import 'color_size.scss';
 @import 'icon.scss';
@@ -8,54 +7,7 @@
 @import 'system.scss';
 @import 'container.scss';
 @import 'task-table.scss';
-
 @import 'sidebar';
-// @import "bs";
-// @import "pxToEm";
-// @import "breakpoints";
-// @import "fonts";
-
-// @import "404";
-// @import "map";
-
-
-// @import "mobile-select";
-// @import "helpers";
-// @import 'top-menu';
-// @import 'excerpt';
-// @import 'image_ratio_mixin';
-// @import 'social-fixed';
-// @import 'bootstrap_menu';
-// @import 'menu-hover';
-// @import 'slider-top';
-// @import 'pharmacy';
-// @import 'gallery_nav';
-// @import 'product_page';
-// @import 'section-title';
-// @import 'section-articles';
-// @import 'menu-side';
-// @import 'btn';
-// @import 'intro';
-// @import 'hexagon';
-// @import 'boxes';
-// @import 'front-articles';
-// @import 'article';
-// @import 'footer';
-// @import 'articles-related';
-
-
-// @import 'pagination';
-// @import 'slider-bottom';
-
-
-// @import 'dots-slider';
-
-// @import "~slick-carousel/slick/slick.scss";
-
-// @import "ico-moon";
-
-
-
 
 a {
 	text-decoration: none;
@@ -69,52 +21,9 @@ button:focus {
     outline: none;
 }
 
-
-
-
 img {
 	max-width:100%;
 	height: auto;
 	display:block;
 }
 
-
-
-// @include b(section) {
-	
-
-
-// @include e(wrapper) {
-// 	@extend .container;
-// 	position: relative;
-// 	// padding-left: 50px;
-// 	// padding-right: 50px;
-// 	@media (max-width: $screen-sm-max) {
-// 		padding-right: 0;
-// 		padding-left: 0;
-// 	}
-// 	@media (max-width: $screen-xs-max)  {
-	
-//   		margin-left: 1rem;
-//   		margin-right: 1rem;
-  	
-// 	}
-
-
-// @include e(row){
-// 	@extend .row;
-// }
-// }
-// }
-
-
-// body {
-	
-// 	font-size: 14px; 
-
-
-// 	@media (max-width: $screen-sm-max) {
-// 		font-size: 12px;
-// 	}
-
-// }
