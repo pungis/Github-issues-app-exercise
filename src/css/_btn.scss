@@ -1,0 +1,21 @@
+.btn{
+    display: inline-block;
+
+    &--system {
+        display: inline-block;
+        border-radius: 50%;
+        background-color: white;
+        width: 10px;
+        height: 10px;
+        margin-left: 5px;
+    }
+    &--close{
+        background-color: #ff594f;
+    }
+    &--minimize{
+        background-color: #ffbc1b;
+    }
+    &--full{
+        background-color: #00cd46;
+    }
+}

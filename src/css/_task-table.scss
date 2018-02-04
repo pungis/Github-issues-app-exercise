@@ -1,0 +1,50 @@
+.task-table {
+    background-color: $colorTasksBg;
+    border-radius: 0 $stepSize*2 $stepSize*2 0;
+    position: absolute;
+    overflow-y: scroll;
+    left: 150px;
+    top: 0;
+    right: 0;
+    height: 100%;
+    padding-top:5px;
+    padding-bottom: 5px;
+
+    &__group-date{
+        padding-left: 3*$stepSize;
+        margin-bottom: 6px;
+        
+    }
+ 
+    &__element{
+        position: relative;
+        border: 1px solid $colorTasksBorder;
+        border-radius: 2*$stepSize;
+        background-color: white;
+        margin-left: 12px;
+        margin:  0 $stepSize*3 $stepSize $stepSize*3;
+        transition: background-color .2s ease;
+        a{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            cursor: pointer;
+        }
+        svg{
+            position: relative;
+            z-index: 1;
+            stroke: $colorTasksBg;
+            float: right;
+            top: 50%;
+            margin-top: $stepSize*2;  
+            margin-right: $stepSize*2;
+        }
+        span{
+            line-height: 38px;
+            padding-left: 12px;
+        }
+        &:hover{
+            background-color: darken(white, 7%);      
+        }
+    }
+}

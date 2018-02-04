@@ -1,0 +1,14 @@
+.container {
+    display: block;
+    position: relative;
+    width: 650px;
+    height: 500px;  
+    margin: 0 auto;
+    top: 50%;
+    margin-top: -250px;
+    border-radius: 10px;
+    background-color: $colorSidebar;
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.5);
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.5);
+}

@@ -1,0 +1,43 @@
+.sidebar{
+    @extend .clearfix;
+    display:block;
+    width: 150px;
+    height: calc(100% - 40px);
+    float: left;
+    transition: background-color .2s ease;
+    li{
+        height: 53px;
+        list-style-type: none;
+
+        &.active{
+            background-color: #292a48;
+        }
+
+        &:hover{
+            background-color: darken(#292a48, 5%);
+        }
+    }
+    a{
+    //     display: flex;
+    //     justify-items: center;
+        width: 100%;
+        display: block;
+        padding-left: $stepSize*2;
+        @extend .clearfix;
+    }
+  
+    img{
+        display: inline-block;
+        vertical-align: middle;  
+    }
+    span{
+        vertical-align: middle;
+        line-height: 53px;
+        margin-left: 2*$stepSize;
+
+        &.counter{
+            float: right;
+            padding-right: 3*$stepSize;
+        }
+    }
+}

@@ -1,0 +1,21 @@
+.system{
+    display: block;
+    width: 150px;
+    background-color: $colorMainDark;
+    border-radius: 10px 0 0 0;
+    height: 40px;
+    padding-left: 10px;
+    ul{
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        line-height: 40px;
+        li{
+            list-style-type: none;
+
+        }
+    }
+    
+
+}
